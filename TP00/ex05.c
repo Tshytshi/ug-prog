@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main(void){
     int number;
-    number = 6
-    int a;
-    a = number/2;
-    if(a==0){
+    number = 7;
+    number = number%2;
+    if(number==0){
         printf("est pair %d",number);
     }
     else{
-        printf("est impair%d");
+        printf("est impair %d", number);
     }
 }
