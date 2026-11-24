@@ -6,7 +6,7 @@ int main(void){
     int heure = T/3600;
     int minute = (T%3600)/60;
     int seconde = T%60;
+
     printf("%d %d %d",heure, minute, seconde);
     return 0;
-
 }

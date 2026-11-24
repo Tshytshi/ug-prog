@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void){
     int a;
     int b;
@@ -12,7 +13,7 @@ int main(void){
     sous = a - b;
     div = a / b;
     multi = a * b;
-    printf("%d %d %d %d",add,sous,div,multi);
 
+    printf("%d %d %d %d",add,sous,div,multi);
     return 0;
 }

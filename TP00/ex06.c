@@ -3,6 +3,7 @@
 int main(void){
     int age;
     age=19;
+    
     if(age<=1){
         printf("Salut bébé !");
     }
