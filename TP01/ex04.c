@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main(void){
-    int a = 2;
-    int b = 1;
-    int c = 3;
+    int a = 0;
+    int b = 0;
+    int c = 0;
     double delta;
 
     delta = b * b - 4 * a * c;
