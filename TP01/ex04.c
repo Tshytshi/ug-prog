@@ -10,15 +10,17 @@ int main(void){
     delta = b * b - 4 * a * c;
     printf("Delta = %f\n", delta);
 
-    if (delta > 0){
+    if (delta > 0)
+    {
         printf("%f\n", (-b - sqrt(delta)) / (2.0 * a));
         printf("%f\n", (-b + sqrt(delta)) / (2.0 * a));
     }
-    else if (delta == 0){
-
+    else if (delta == 0)
+    {
         printf("x = %f\n", -b / (2.0 * a));
     }
-    else {
+    else
+    {
         printf("Pas de solution\n");
     }
     return 0;

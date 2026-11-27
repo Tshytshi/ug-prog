@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    int number = 6;
+    int number = 9;
 
     for(int i = 0; i <= number; i++){
         printf("%d\n", i);
